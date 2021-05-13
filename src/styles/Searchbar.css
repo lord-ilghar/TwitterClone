@@ -1,0 +1,22 @@
+.searchinput input {
+  margin-top: 0;
+  background: none;
+  font-size: 1.4rem;
+  border-radius: 15px;
+  width: 100%;
+  padding: 0.1rem;
+  background: none;
+  font-size: 1.5rem;
+}
+.searchinput {
+  position: sticky;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 0.3rem;
+}
+.searchinput img {
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.window {
+  position: fixed;
+  z-index: 1000;
+  width: 50%;
+  padding: 1.5rem;
+  background-color: aquamarine;
+  min-height: 40rem;
+  top: 0;
+  right: 0;
+  transform: translate(-50%, 1rem);
+  opacity: 92%;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.3);
+  /* display: flex; */
+}
+.window img {
+  display: inline-block;
+  width: 2rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.window > .top {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form {
+  /* background: saddlebrown; */
+  padding: 1rem 0.6rem;
+}
+label {
+  font-weight: bolder;
+  /* background-color: rosybrown; */
+  margin-top: 0.5rem;
+  display: block;
+  padding: 0.4rem;
+}
+input,
+input:focus {
+  outline: none;
+  padding: 0.4rem;
+  font-size: 1rem;
+  width: 80%;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(220, 252, 252);
+}
+form:first-child {
+  margin-top: 0;
+}
+@media screen and (max-width: 700px) {
+  .window {
+    width: 80%;
+    left: 50%;
+    right: 50%;
+  }
+}
+hr {
+  padding: 0.05rem;
+  border: none;
+  background: white;
+  border: 1px solid white;
+}
+form h3 {
+  margin-top: 2rem;
+}
+form h3:first-of-type {
+  margin-top: 0.5rem;
+}

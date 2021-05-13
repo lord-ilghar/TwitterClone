@@ -1,0 +1,25 @@
+.sidebar {
+  padding: 0.6rem 1rem;
+  /* background-color: yellow; */
+}
+.cardContainer {
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: whitesmoke;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.cardContainer > * {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+.cardContainer a {
+  font-weight: bolder;
+}
+.cardContainer p {
+  color: rgb(0, 0, 0, 0.3);
+  /* padding: 0.4rem; */
+  margin-top: 0.4rem;
+}
+.sidecard {
+  padding: 0.5rem;
+}
