@@ -11,7 +11,7 @@ class LoginFooter extends Component {
         <li key={index}>
           <a
             href={
-              this.props.links.length == list.length
+              this.props.links.length === list.length
                 ? this.props.links[index]
                 : "#"
             }

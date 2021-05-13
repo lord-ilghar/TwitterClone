@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./../styles/Contant.css";
+import NewTweet from "./NewTweet";
+import TweetcardsCard from "./MainCard";
 
 class Contant extends Component {
   constructor(props) {
@@ -9,7 +11,10 @@ class Contant extends Component {
   render() {
     return (
       <main className="contant__main">
-        <h1>hello word</h1>
+        <NewTweet />
+        <TweetcardsCard
+          twiiteCards={[{ dis: "helloooooo" }, { dis: "helloooooo" }]}
+        />
       </main>
     );
   }

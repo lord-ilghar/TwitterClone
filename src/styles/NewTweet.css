@@ -1,0 +1,58 @@
+.NewTweet {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+  /* margin-right: 300px; */
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.NewTweet img {
+  width: 1.6rem;
+}
+.NewTweet__img-dis img {
+  width: 2.5rem;
+}
+.NewTweet__img-dis {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.NewTweet__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  border-radius: 16px 16px 0 0;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+.NewTweet__footer button,
+.NewTweet__footer button:focus {
+  border: none;
+  background-color: #1da1f2;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.NewTweet__img-dis input {
+  background: none;
+}
+.NewTweet__footer {
+  /* padding: ; */
+  background-color: whitesmoke;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listimg + .listimg {
+  margin-left: 2rem;
+}
+.listimg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 100ms;
+  filter: brightness(110%);
+}

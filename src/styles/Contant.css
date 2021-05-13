@@ -1,6 +1,50 @@
 .contant__main {
   background-color: white;
   height: 200vh;
-  margin-left: 230px;
-  padding: 1rem;
+  margin-left: 250px; /* navbar.css  line 3*/
+  margin-right: 360px; /* navbar.css line 25*/
+}
+@media screen and (max-width: 1000px) {
+  .contant__main {
+    margin-right: 0;
+  }
+}
+.MainCardcontainer {
+  align-items: center;
+  padding: 0.6rem;
+  margin-top: 1rem;
+}
+.MainCard {
+  background: black;
+}
+.twiitCards .title {
+  color: white;
+  padding: 0.3rem;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.twiitCards {
+  margin: 0 auto;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+  background-color: #4ea8de;
+  border-radius: 12px;
+  /* padding: 0.4rem; */
+  padding-bottom: 1rem;
+}
+.twiitCards + .twiitCards {
+  margin-top: 1.2rem;
+}
+.Contant,
+.twiitCards .title {
+  /* background: #121221; */
+  padding: 0.5rem;
+}
+.listimg {
+  width: 1.6rem;
+}
+.twiitsFooter {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 1rem; */
+  margin-top: 1rem;
 }
