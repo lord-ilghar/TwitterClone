@@ -1,6 +1,6 @@
 .contant__main {
   background-color: white;
-  height: 200vh;
+  /* height: 200vh; */
   margin-left: 250px; /* navbar.css  line 3*/
   margin-right: 360px; /* navbar.css line 25*/
 }
@@ -13,9 +13,8 @@
   align-items: center;
   padding: 0.6rem;
   margin-top: 1rem;
-}
-.MainCard {
-  background: black;
+  width: 95%;
+  margin: 0 auto;
 }
 .twiitCards .title {
   color: white;
@@ -47,4 +46,9 @@
   justify-content: space-around;
   /* padding: 1rem; */
   margin-top: 1rem;
+}
+.likeamount {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }

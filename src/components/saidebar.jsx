@@ -15,6 +15,9 @@ const cards22 = [
   { link: "/homefsfs", title: "bye word", dis: "this is bye word", id: 1 },
   { link: "/homefsfs", title: "bye word", dis: "this is bye word", id: 1 },
 ];
+const card = [
+  { link: "/home", title: "ejtrjtes", dis: "gsewgey45yh4u", id: 144 },
+];
 class Sidebar extends Component {
   constructor(props) {
     super(props);
@@ -26,6 +29,7 @@ class Sidebar extends Component {
         <Searchbar />
         <CardContainer title="hello" cards={cards} />
         <CardContainer title="good bye" cards={cards22} />
+        <CardContainer title="Morad joon" cards={card} />
       </aside>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./../styles/LoginWindow.css";
 import Xicon from "./../icons/xbutton.png";
-import Forms from "./Forms";
+import Forms from "./LoginForms";
 
 class LoginWindowPup extends Component {
   constructor(props) {

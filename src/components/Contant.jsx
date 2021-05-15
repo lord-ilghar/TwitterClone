@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./../styles/Contant.css";
 import NewTweet from "./NewTweet";
-import TweetcardsCard from "./MainCard";
+import TweetcardsCard from "./TwiitsCardsContainer";
 
 class Contant extends Component {
   constructor(props) {
@@ -13,7 +13,11 @@ class Contant extends Component {
       <main className="contant__main">
         <NewTweet />
         <TweetcardsCard
-          twiiteCards={[{ dis: "helloooooo" }, { dis: "helloooooo" }]}
+          twiiteCards={[
+            { title: "hello , you", dis: "helloooooo" },
+            { title: "bye you", dis: "helloooooo" },
+            { title: "bye you", dis: "helloooooo" },
+          ]}
         />
       </main>
     );
