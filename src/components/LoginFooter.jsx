@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "./../styles/login.css";
+
 class LoginFooter extends Component {
   constructor(props) {
     super(props);

@@ -8,7 +8,6 @@ class login extends Component {
       login: true,
     };
     this.handelEvent = this.handelEvent.bind(this);
-    // this.share = this.share.bind(this);
   }
   handelEvent(e) {
     switch (e.target.id) {
@@ -43,7 +42,7 @@ class login extends Component {
             </div>
             <div className="img" />
           </div>
-          <LoginFooters name={[1, 2, 2, 2]} links={[]} />
+          <LoginFooters name={["f", "ff", "ffff", "fsfsfs"]} links={[]} />
         </main>
       </>
     );

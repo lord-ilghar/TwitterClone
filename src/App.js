@@ -1,8 +1,6 @@
 import Mainlogin from "./components/MainLogin";
-// import NeedLoginContext from "./components/NeedLoginContext";
 import React, { Component } from "react";
 import Main from "./components/Main";
-// import './App.css';
 
 class App extends Component {
   constructor(props) {
